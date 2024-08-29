@@ -13,7 +13,13 @@
             <input type="text" name="mobile_name" placeholder="Mobile name" required>
             <input type="number" name="price" placeholder="Price" required>
             <input type="text" name="card holder" placeholder="Card-holder" required>
-            <input type="text" name="site_account" placeholder="Site/account" required>
+            
+            <input type="text" name="site_account" list="sites" placeholder="Site/account" required>
+<datalist id="sites">
+  <option value="Amazon">
+  <option value="Flipkart">
+  <option value="Site">
+</datalist>
             <input type="text" name="delivery_date" placeholder="Delivery date" required>
            
             <button type="submit">submit</button>
